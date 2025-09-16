@@ -1,4 +1,4 @@
-var userName = document.getElementsById('name');
+var userName = document.getElementById('name');
 var submitBtn = document.querySelector(".button");
 console.log(userName.value);
 
