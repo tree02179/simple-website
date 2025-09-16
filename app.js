@@ -1,12 +1,11 @@
-var userName = document.getElementById('name');
+var userName = document.getElementById("tree");
 var submitBtn = document.querySelector(".button");
-console.log(userName.value);
 
 window.onload = function() {
-    document.getElementById('name').focus();
+    userName.focus();
 };
 
-function SubmitBtn(value) {
+function SubmitBtn() {
     alert(userName.value);
 }
 
